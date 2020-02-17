@@ -23,7 +23,7 @@ class projects extends Component {
                   <span>Admin Panel, Donor Panel, Public Panel</span>
                   <hr className="btn-info" />
                   Github Link :{" "}
-                  <a href="https://github.com/hossainrkb/Blood-Finder-Admin-donor-general-public-panel-">
+                  <a  target="_blank"  href="https://github.com/hossainrkb/Blood-Finder-Admin-donor-general-public-panel-">
                     Blood Finder
                   </a>
                   <br />
@@ -50,7 +50,7 @@ class projects extends Component {
                   <span>Admin Panel</span>
                   <hr className="btn-info" />
                   Github Link :{" "}
-                  <a href="https://github.com/hossainrkb/Showroom-Softwate-backend--laravel-frontend--react-">
+                  <a  target="_blank"  href="https://github.com/hossainrkb/Showroom-Softwate-backend--laravel-frontend--react-">
                     Showroom Software
                   </a>
                   <br />
@@ -75,7 +75,7 @@ class projects extends Component {
                   <span>Admin Panel</span>
                   <hr className="btn-info" />
                   Github Link :{" "}
-                  <a href="https://github.com/hossainrkb/library_admin">
+                  <a  target="_blank"  href="https://github.com/hossainrkb/library_admin">
                     Library Admin
                   </a>
                   <br />
@@ -99,7 +99,7 @@ class projects extends Component {
                   <span>Admin Panel, User Panel</span>
                   <hr className="btn-info" />
                   Github Link :{" "}
-                  <a href="https://github.com/hossainrkb/E_commerce_software_Admin_User_Panel_laravel">
+                  <a  target="_blank"  href="https://github.com/hossainrkb/E_commerce_software_Admin_User_Panel_laravel">
                     Ecommerce Software
                   </a>
                 </div>
@@ -117,7 +117,7 @@ class projects extends Component {
                   <span>Agent Panel, User Panel</span>
                   <hr className="btn-info" />
                   Github Link :{" "}
-                  <a href="https://github.com/hossainrkb/Branch-software-Banking---company-name--upliftbd">
+                  <a  target="_blank"  href="https://github.com/hossainrkb/Branch-software-Banking---company-name--upliftbd">
                     uplift BD (agent , user)
                   </a>
                   <br />
