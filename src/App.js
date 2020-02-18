@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import NavTop from './components/navtop'
-import Education from './components/eductaions'
-import Framework from './components/framework'
-import Introduction from './components/Introduction'
-import Programming_languague from './components/programming_languague'
-import Project from './components/projects'
+import NavTop from "./components/navtop";
+import Education from "./components/eductaions";
+import Framework from "./components/framework";
+import Introduction from "./components/Introduction";
+import Programming_languague from "./components/programming_languague";
+import Project from "./components/projects";
 import Project_details from "./components/pro_details";
 import Experience from "./components/experience";
 
