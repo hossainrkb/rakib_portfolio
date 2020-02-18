@@ -19,12 +19,13 @@ class App extends Component {
     check:0
   }
   componentWillMount(){
-     if (window.location.href !== "http://localhost:3000/rakib_portfolio/") {
+     if (
+       window.location.href !== "https://hossainrkb.github.io/rakib_portfolio/"
+     ) {
        this.setState({
-         check:1
-       })
-      
-  }
+         check: 1
+       });
+     }
   }
   render() {
      if (this.state.check ==1) {
