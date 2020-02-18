@@ -16,30 +16,6 @@ function App() {
     return (
       <BrowserRouter>
         <Redirect to="/rakib_portfolio/" />
-        <div className="container">
-          <NavTop />
-          <Switch>
-            <Route path="/rakib_portfolio/" exact component={Introduction} />
-            <Route path="/rakib_portfolio/edu/" exact component={Education} />
-            <Route
-              path="/rakib_portfolio/frmwrk/"
-              exact
-              component={Framework}
-            />
-            <Route
-              path="/rakib_portfolio/pro_lan/"
-              exact
-              component={Programming_languague}
-            />
-            <Route path="/rakib_portfolio/proj/" exact component={Project} />
-            <Route path="/rakib_portfolio/exp/" exact component={Experience} />
-            <Route
-              path="/rakib_portfolio/pro/details/:pd_id/"
-              exact
-              component={Project_details}
-            />
-          </Switch>
-        </div>
       </BrowserRouter>
     );
   }
