@@ -10,6 +10,14 @@ import Project_details from "./components/pro_details";
 import Experience from "./components/experience";
 
 function App() {
+    if (window.location.href !== "https://hossainrkb.github.io/rakib_portfolio/") {
+  return (
+    <BrowserRouter>
+      <Redirect to="/rakib_portfolio/" />
+    </BrowserRouter>
+  );
+    
+  }
   return (
     <BrowserRouter>
       <div className="container">
